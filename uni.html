@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uni.css">
+    <title>MAPA</title>
+</head>
+<body>
+    <header>
+        <h1>MAPA</h1>
+    </header>
+        <section class="conteiner">
+            <h2>Calculadora de churrasco</h2>
+            <section class="input">
+                <label for="homem">Homens:</label>
+                <input type="number" name="homem" id="homem" placeholder="Digite quantos homens">
+                <br><br>
+                <label for="mulher">Mulher:</label>
+                <input style="margin-left: 12px;" type="number" name="mulher" id="mulher" placeholder="Digite quantas mulheres">
+                <br><br>
+                <label for="criança">Crianças:</label>
+                <input type="number" name="criança" id="criança" placeholder="Digite quantas crianças">
+                <br><br>
+                <button id="calc" type="submit" onclick="calcular()">Calcular</button>   
+            </section>
+            
+            <section class="campo_list">
+                <h3>Quantidade de itens a serem comprados:</h3>
+                <ul id="res">
+                    
+                </ul>
+            </section>
+        </section>
+
+    
+    <footer>
+        <p id="me">@Lzin_code</p>
+    </footer>
+    <script src="uni.js"></script>
+</body>
+</html>
